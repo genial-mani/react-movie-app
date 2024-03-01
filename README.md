@@ -31,8 +31,8 @@ Check out the live demo of the Movie App: [Movie App Live](https://react-movie-a
 
 ## How to Run
 
-1. Clone the repository: `git clone https://github.com/your-username/movie-app.git`
-2. Navigate to the project directory: `cd movie-app`
+1. Clone the repository: `git clone https://github.com/genial-mani/react-movie-app.git`
+2. Navigate to the project directory: `cd react-movie-app`
 3. Install dependencies: `npm install`
 4. Start the application: `npm run dev`
 5. Open your browser and visit `http://localhost:5173` or click on the link in the console.
