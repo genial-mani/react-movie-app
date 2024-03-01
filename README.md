@@ -6,7 +6,7 @@ This Movie App is a web application built using React that allows users to explo
 
 ## Live Demo
 
-Check out the live demo of the Movie App: [Movie App Live](https://react-movie-app-one-omega.vercel.app/)
+Check out the live demo of the Movie App: [Live Link](https://react-movie-app-one-omega.vercel.app/)
 
 
 ## Features
