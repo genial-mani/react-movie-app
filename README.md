@@ -7,7 +7,7 @@ This Movie App is a web application built using React that allows users to explo
 ## Live Demo
 
 - **Note**: Use VPN (TMDB server in india sometimes goes down)
-  Check out the live demo of the Movie App: [Live Link](https://react-movie-app-one-omega.vercel.app/)
+ - Check out the live demo of the Movie App: [Live Link](https://react-movie-app-one-omega.vercel.app/)
 
 ## Features
 
