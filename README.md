@@ -48,5 +48,5 @@ In order to fetch movies data, TMDB api key is used.
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [The Movie Database (TMDb)](https://www.themoviedb.org/)
-- [React Spinners] (https://www.npmjs.com/package/react-spinners)
+- [React Spinners](https://www.npmjs.com/package/react-spinners)
 
