@@ -19,6 +19,13 @@ Check out the live demo of the Movie App: [Movie App Live](https://react-movie-a
 ## Technologies Used
 
 - React
+    <img src="public/react.svg" alt="React" width="20" height="20">
+- JavaScript
+  <img src="public/js.svg" alt="React" width="20" height="20">
+- Vite
+  <img src="public/vite.svg" alt="React Router" width="20" height="20">
+- CSS
+  <img src="public/css.svg" alt="TMDb" width="20" height="20">
 - React Router
 - TMDb API
 
