@@ -4,6 +4,11 @@
 
 This Movie App is a web application built using React that allows users to explore and discover information about movies. It utilizes The Movie Database (TMDb) API to fetch movie data.
 
+## Live Demo
+
+Check out the live demo of the Movie App: [Movie App Live](https://react-movie-app-one-omega.vercel.app/)
+
+
 ## Features
 
 - **Browse Movies:** Explore movies based on different categories such as Now Playing, Popular, Top Rated, and Upcoming.
