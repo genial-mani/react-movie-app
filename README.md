@@ -1,37 +1,47 @@
 # Movie App
 
 ## Overview
+
 This Movie App is a web application built using React that allows users to explore and discover information about movies. It utilizes The Movie Database (TMDb) API to fetch movie data.
 
 ## Features
+
 - **Browse Movies:** Explore movies based on different categories such as Now Playing, Popular, Top Rated, and Upcoming.
 - **Search:** Search for movies using keywords and get relevant results.
 - **Movie Details:** View detailed information about a specific movie, including cast, crew, release date, and overview.
-- **Responsive Design:** The app is designed to work seamlessly across various devices.
+- **Responsive Design:** (not responsive)
 
 ## Technologies Used
+
 - React
 - React Router
 - TMDb API
 
 ## How to Run
+
 1. Clone the repository: `git clone https://github.com/your-username/movie-app.git`
 2. Navigate to the project directory: `cd movie-app`
 3. Install dependencies: `npm install`
-4. Start the application: `npm start`
-5. Open your browser and visit `http://localhost:3000`
+4. Start the application: `npm run dev`
+5. Open your browser and visit `http://localhost:5173` or click on the link in the console.
+6. If you can't see any data on the screen then use any VPN so that TMDB server can be accessed.
 
 ## API Key
-To use this app, you need to obtain an API key from [TMDb](https://www.themoviedb.org/documentation/api) and replace the placeholder in the code.
+
+In order to fetch movies data, TMDB api key is used.
 
 ## Screenshots
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+
+![Screenshot 1](public/movieapp.png)
+![Screenshot 2](public/movieapp2.png)
+![Screenshot 3](public/movieapp3.png)
+![Screenshot 4](public/movieapp4.png)
+
 
 ## Acknowledgements
+
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [The Movie Database (TMDb)](https://www.themoviedb.org/)
+- [React Spinners] (https://www.npmjs.com/package/react-spinners)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
