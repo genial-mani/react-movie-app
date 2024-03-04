@@ -7,7 +7,7 @@ This Movie App is a web application built using React that allows users to explo
 ## Live Demo
 
 - **Note**: Use VPN (TMDB server in india sometimes goes down)
- - Check out the live demo of the Movie App: [Live Link](https://react-movie-app-one-omega.vercel.app/)
+- Check out the live demo of the Movie App: [Live Link](https://react-movie-app-one-omega.vercel.app/)
 
 ## Features
 
@@ -55,3 +55,5 @@ In order to fetch movies data, TMDB api key is used.
 - [React Router](https://reactrouter.com/)
 - [The Movie Database (TMDb)](https://www.themoviedb.org/)
 - [React Spinners](https://www.npmjs.com/package/react-spinners)
+
+`Star the repo if u like the project.`
