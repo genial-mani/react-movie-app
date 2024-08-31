@@ -28,7 +28,7 @@ const Moviedetails = () => {
         const Key = "77a959649b06d3efe0ba5f50793c06e5";
         const url1 = `https://api.themoviedb.org/3/movie/${movieId}/credits?api_key=${Key}`;
         const url2 = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${Key}&language=en-US`;
-        const url3 = `https://api.themoviedb.org/3/movie/${movieId}/${mediaCategory}?api_key=${Key}`;
+        
         const url4 = `https://api.themoviedb.org/3/movie/${movieId}/recommendations?api_key=${Key}`;
         const url5 = `https://api.themoviedb.org/3/movie/${movieId}/keywords?language=en-US&api_key=${Key}`;
         const res1 = await fetch(url2);
@@ -37,8 +37,7 @@ const Moviedetails = () => {
         const res2 = await fetch(url1);
         const result2 = await res2.json();
 
-        const res3 = await fetch(url3);
-        const result3 = await res3.json();
+        
 
         const res4 = await fetch(url4);
         const result4 = await res4.json();
@@ -57,6 +56,28 @@ const Moviedetails = () => {
         setCast(result2.cast);
         setCrew(result2.crew);
 
+        
+
+        setKeywords(result5.keywords);
+        setRecomendations(result4.results);
+        setLoading(false);
+
+      } catch (err) {
+        console.log("Error fetching data..!", err);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [movieId]);
+
+  useEffect(()=>{
+    const fetchMediaData = async()=>{
+      try {
+        const Key = "77a959649b06d3efe0ba5f50793c06e5";
+        const url3 = `https://api.themoviedb.org/3/movie/${movieId}/${mediaCategory}?api_key=${Key}`;
+        const res3 = await fetch(url3);
+        const result3 = await res3.json();
         // setImages(result3);
 
         if (mediaCategory === "videos") {
@@ -73,20 +94,12 @@ const Moviedetails = () => {
             // console.log(images);
           }
         }
-
-        setKeywords(result5.keywords);
-        setRecomendations(result4.results);
-        setLoading(false);
-
-        // console.log(mediaCategory);
-      } catch (err) {
-        console.log("Error fetching data..!", err);
-        setLoading(false);
+      } catch (error) {
+        console.log(error)
       }
-    };
-
-    fetchData();
-  }, [movieId, mediaCategory, imageType]);
+    }
+    fetchMediaData();
+  },[movieId, mediaCategory, imageType])
 
   const runtimeFormatter = (runtime) => {
     const hours = Math.floor(runtime / 60);
